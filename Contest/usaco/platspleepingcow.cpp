@@ -12,6 +12,7 @@ void add(int & x, int y) {
 }
 
 int f[2][maxn][2];
+/// available cow to match    all previous cow is match
 vector<pair<int, int>> events;
 int N, a[maxn], b[maxn];
 
